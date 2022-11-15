@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/blocks.css/dist/blocks.min.css"
+    />
+    <script src="calculator.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="display">
+      <div class="previousDisplay"></div>
+      <div class="currentDisplay">0</div>
+    </div>
+
+    <div class="grid-container">
+      <button class="block accent grid-item number">7</button>
+      <button class="block accent grid-item number">8</button>
+      <button class="block accent grid-item number">9</button>
+      <button class="block accent grid-item operator">/</button>
+      <button class="block accent grid-item number">4</button>
+      <button class="block accent grid-item number">5</button>
+      <button class="block accent grid-item number">6</button>
+      <button class="block accent grid-item operator">x</button>
+      <button class="block accent grid-item number">1</button>
+      <button class="block accent grid-item number">2</button>
+      <button class="block accent grid-item number">3</button>
+      <button class="block accent grid-item operator">-</button>
+      <button class="block accent grid-item decimal">.</button>
+      <button class="block accent grid-item number">0</button>
+      <button class="block accent grid-item equal">=</button>
+      <button class="block accent grid-item operator">+</button>
+    </div>
+
+    <button class="block accent clear">CLEAR</button>
+  </body>
+</html>
